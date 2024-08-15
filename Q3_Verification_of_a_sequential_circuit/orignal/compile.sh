@@ -1,0 +1,1 @@
+gcc  -o main main.c -I ../../../include -L ../../../lib -lbdd -lmem

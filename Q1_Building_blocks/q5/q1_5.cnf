@@ -1,0 +1,43 @@
+c Assignment 1 Q1_5 CNFc Assignment 1 Q1_5 CNFc   nvars nclauses
+p cnf 8 20
+c a b c d e j h i
+c( j + ~h +0)
+6 -7 0
+c( ~j + h +0)
+-6 7 0
+c( h + ~i +0)
+7 -8 0
+c( ~h + i +0)
+-7 8 0
+c( j + ~i +0)
+6 -8 0
+c( ~j + i +0)
+-6 8 0
+c( h + b +0)
+7  2 0
+c( h + c +0)
+7  3 0
+c( h + d +0)
+7  4 0
+c( h + e +0)
+7  5 0
+c( ~b + ~c + ~d + ~e + ~h +0)
+-2 -3 -4 -5 -7 0
+c( ~j + a + ~b + ~c +0)
+-6 1 -2 -3 0
+c( j + ~a +0)
+6 -1 0
+c( j + b +0)
+6 2 0
+c( j + c +0)
+6 3 0
+c( ~i + b +0)
+-8 2 0
+c( ~i + c +0)
+-8 3 0
+c( ~i + d +0)
+-8 4 0
+c( ~i + e +0)
+-8 5 0
+c( i + ~b + ~c + ~d + ~e +0)
+8 -2 -3 -4 -5 0

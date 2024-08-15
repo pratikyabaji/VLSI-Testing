@@ -1,0 +1,1 @@
+gcc  -o q2_c1 main.c -I ../../../../../include -L ../../../../../lib -lbdd -lmem
